@@ -1,0 +1,6 @@
+# ignore node_modules 
+node_modules/
+apps/front/node_modules
+apps/server/node_modules
+
+# *
