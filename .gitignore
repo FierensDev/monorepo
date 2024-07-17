@@ -1,6 +1,28 @@
-# ignore node_modules 
 node_modules/
-apps/front/node_modules
-apps/server/node_modules
 
-# *
+# apps/front 
+# dependencies
+apps/front/node_modules
+apps/front/.pnp
+apps/front/.pnp.js
+
+# testing
+apps/front/coverage
+
+# production
+apps/front/build
+
+# misc
+apps/front/.DS_Store
+apps/front/.env.local
+apps/front/.env.development.local
+apps/front/.env.test.local
+apps/front/.env.production.local
+
+apps/front/npm-debug.log*
+apps/front/yarn-debug.log*
+apps/front/yarn-error.log*
+
+# apps/server
+apps/server/node_modules
+apps/server/dist
